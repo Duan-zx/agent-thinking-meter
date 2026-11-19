@@ -4,7 +4,7 @@ Is your coding agent still reasoning before it calls tools?
 
 `agent-thinking-meter` reads the session logs that coding agents keep on your machine and reports, per source, day and model, how often tool-calling steps carried reasoning, how much, and how many tool calls the agent made per user turn. Use it to check a hunch ("it feels lazier this week") against your own data before you file a bug report.
 
-It started as a script for a [Gemini 4 regression in Google Antigravity](https://discuss.ai.google.dev/t/counter-data-tool-aware-minimal-thinking-is-measurably-degrading-output-quality-on-agy-gemini-4-carbon/200671) in November 2026, where models on the subscription path stopped showing reasoning on tool-use turns.
+It started as a script for a [Gemini 4 regression in Google Antigravity](https://discuss.ai.google.dev/t/counter-data-tool-aware-minimal-thinking-is-measurably-degrading-output-quality-on-agy-gemini-4-carbon/200671) in November 2026, where models on the subscription path stopped showing reasoning on tool-use turns. The regression was fixed server-side on November 19; the [case study](docs/case-study-antigravity-2026-11.md) walks through the drop and the recovery.
 
 ## Supported agents
 
